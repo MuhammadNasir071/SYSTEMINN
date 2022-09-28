@@ -6,12 +6,8 @@
     <div class="container py-5">
         <div class="row justify-content-start">
             <div class="col-lg-8 text-center text-lg-start">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5" style="border-color: rgba(256, 256, 256, .3) !important;">Welcome To Medinova</h5>
-                <h1 class="display-1 text-white mb-md-4">Best Healthcare Solution In Your City</h1>
-                <div class="pt-2">
-                    <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">Find Doctor</a>
-                    <a href="" class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2">Appointment</a>
-                </div>
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5" style="border-color: rgba(256, 256, 256, .3) !important;">Welcome To SystemInn</h5>
+                <h1 class="display-1 text-white mb-md-4">Best Company That Thrives on Your Success</h1>
             </div>
         </div>
     </div>
@@ -30,9 +26,9 @@
             <div class="col-lg-7">
                 <div class="mb-4">
                     <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">About Us</h5>
-                    <h1 class="display-4">Best Medical Care For Yourself and Your Family</h1>
+                    <h1 class="display-4">Best Company That Thrives on Your Success</h1>
                 </div>
-                <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                <p>We are a team web experts with over  years of experience in website building and marketing to help businesses grow online.Systeminn Software Development company in Pakistan is providing innovative software that help you to getting competitive edge in the market through high-quality custom development services. </p>
                 <div class="row g-3 pt-3">
                     <div class="col-sm-3 col-6">
                         <div class="bg-light text-center rounded-circle py-4">
@@ -70,79 +66,79 @@
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 500px;">
             <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Services</h5>
-            <h1 class="display-4">Excellent Medical Services</h1>
+            <h1 class="display-4">WE ARE OFFERING AND SERVICES</h1>
         </div>
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="service-icon mb-4">
-                        <i class="fa fa-2x fa-user-md text-white"></i>
+                        <i class="fas fa-3x fa-desktop text-white"></i>
                     </div>
-                    <h4 class="mb-3">Emergency Care</h4>
-                    <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
-                    <a class="btn btn-lg btn-primary rounded-pill" href="">
+                    <h4 class="mb-3">Website Development</h4>
+                    <p class="m-0">Website is your online portfolio, profile and Ecommerce store. It is most important in your business marketing strategy.</p>
+                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
                         <i class="bi bi-arrow-right"></i>
-                    </a>
+                    </a> --}}
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="service-icon mb-4">
-                        <i class="fa fa-2x fa-procedures text-white"></i>
+                        <i class="fa fa-mobile fa-3x text-white"></i>
                     </div>
-                    <h4 class="mb-3">Operation & Surgery</h4>
-                    <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
-                    <a class="btn btn-lg btn-primary rounded-pill" href="">
+                    <h4 class="mb-3">Android & IOS Apps</h4>
+                    <p class="m-0">Mobile Apps are very important for your business. You can use it according to your business requirement.</p>
+                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
                         <i class="bi bi-arrow-right"></i>
-                    </a>
+                    </a> --}}
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="service-icon mb-4">
-                        <i class="fa fa-2x fa-stethoscope text-white"></i>
+                        <img src="{{asset('frontend/img/soft_dev.jpg')}}" alt="" style="width:60px;transform: rotate(14deg);">
                     </div>
-                    <h4 class="mb-3">Outdoor Checkup</h4>
-                    <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
-                    <a class="btn btn-lg btn-primary rounded-pill" href="">
+                    <h4 class="mb-3">Custom Software Development</h4>
+                    <p class="m-0">Designing, Creating, Deploying and Maintaining software for a specific set of employer or organization.</p>
+                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
                         <i class="bi bi-arrow-right"></i>
-                    </a>
+                    </a> --}}
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="service-icon mb-4">
-                        <i class="fa fa-2x fa-ambulance text-white"></i>
+                        <i class="fas fa-3x fa-laptop text-white"></i>
                     </div>
-                    <h4 class="mb-3">Ambulance Service</h4>
-                    <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
-                    <a class="btn btn-lg btn-primary rounded-pill" href="">
+                    <h4 class="mb-3">UI/UX Design</h4>
+                    <p class="m-0">Responsible for applying interactive and visual design principles on websites and web applications for a positive and cohesive user experience.</p>
+                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
                         <i class="bi bi-arrow-right"></i>
-                    </a>
+                    </a> --}}
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="service-icon mb-4">
-                        <i class="fa fa-2x fa-pills text-white"></i>
+                        <i class="fa fa-3x fa-edit text-white"></i>
                     </div>
-                    <h4 class="mb-3">Medicine & Pharmacy</h4>
-                    <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
-                    <a class="btn btn-lg btn-primary rounded-pill" href="">
+                    <h4 class="mb-3">Graphics Design</h4>
+                    <p class="m-0">If you want to make ads, posts, logos, banners, brouchers, we can provide you the best and latest designs.</p>
+                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
                         <i class="bi bi-arrow-right"></i>
-                    </a>
+                    </a> --}}
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="service-icon mb-4">
-                        <i class="fa fa-2x fa-microscope text-white"></i>
+                        <i class="fas fa-3x fa-mail-bulk text-white"></i>
                     </div>
-                    <h4 class="mb-3">Blood Testing</h4>
-                    <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
-                    <a class="btn btn-lg btn-primary rounded-pill" href="">
+                    <h4 class="mb-3">SEO (Search Engine Optimization)</h4>
+                    <p class="m-0">Optimize your site's SEO to increase its organic search visibility and traffic.</p>
+                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
                         <i class="bi bi-arrow-right"></i>
-                    </a>
+                    </a> --}}
                 </div>
             </div>
         </div>

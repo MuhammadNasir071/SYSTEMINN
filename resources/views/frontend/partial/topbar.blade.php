@@ -23,9 +23,9 @@
                     <a class="text-body px-2" href="">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="text-body ps-2" href="">
+                    {{-- <a class="text-body ps-2" href="">
                         <i class="fab fa-youtube"></i>
-                    </a>
+                    </a> --}}
                 </div>
             </div>
         </div>
