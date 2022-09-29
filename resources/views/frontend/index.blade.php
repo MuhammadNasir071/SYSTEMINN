@@ -65,8 +65,8 @@
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Services</h5>
-            <h1 class="display-4">WE ARE OFFERING AND SERVICES</h1>
+            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">{{__('Services')}}</h5>
+            <h1 class="display-4">{{__('WE ARE OFFERING AND SERVICES')}}</h1>
         </div>
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
@@ -74,11 +74,8 @@
                     <div class="service-icon mb-4">
                         <i class="fas fa-3x fa-desktop text-white"></i>
                     </div>
-                    <h4 class="mb-3">Website Development</h4>
-                    <p class="m-0">Website is your online portfolio, profile and Ecommerce store. It is most important in your business marketing strategy.</p>
-                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
-                        <i class="bi bi-arrow-right"></i>
-                    </a> --}}
+                    <h4 class="mb-3">{{__('Website Development')}}</h4>
+                    <p class="m-0">{{__('Website is your online portfolio, profile and Ecommerce store. It is most important in your business marketing strategy.')}}</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -86,11 +83,8 @@
                     <div class="service-icon mb-4">
                         <i class="fa fa-mobile fa-3x text-white"></i>
                     </div>
-                    <h4 class="mb-3">Android & IOS Apps</h4>
-                    <p class="m-0">Mobile Apps are very important for your business. You can use it according to your business requirement.</p>
-                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
-                        <i class="bi bi-arrow-right"></i>
-                    </a> --}}
+                    <h4 class="mb-3">{{__('Android & IOS Apps')}}</h4>
+                    <p class="m-0">{{__('Mobile Apps are very important for your business. You can use it according to your business requirement.')}}</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -98,11 +92,8 @@
                     <div class="service-icon mb-4">
                         <img src="{{asset('frontend/img/soft_dev.jpg')}}" alt="" style="width:60px;transform: rotate(14deg);">
                     </div>
-                    <h4 class="mb-3">Custom Software Development</h4>
-                    <p class="m-0">Designing, Creating, Deploying and Maintaining software for a specific set of employer or organization.</p>
-                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
-                        <i class="bi bi-arrow-right"></i>
-                    </a> --}}
+                    <h4 class="mb-3">{{__('Custom Software Development')}}</h4>
+                    <p class="m-0">{{__('Designing, Creating, Deploying and Maintaining software for a specific set of employer or organization.')}}</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -110,11 +101,8 @@
                     <div class="service-icon mb-4">
                         <i class="fas fa-3x fa-laptop text-white"></i>
                     </div>
-                    <h4 class="mb-3">UI/UX Design</h4>
-                    <p class="m-0">Responsible for applying interactive and visual design principles on websites and web applications for a positive and cohesive user experience.</p>
-                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
-                        <i class="bi bi-arrow-right"></i>
-                    </a> --}}
+                    <h4 class="mb-3">{{__('UI/UX Design')}}</h4>
+                    <p class="m-0">{{__('Responsible for applying interactive and visual design principles on websites and web applications for a positive and cohesive user experience.')}}</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -122,11 +110,8 @@
                     <div class="service-icon mb-4">
                         <i class="fa fa-3x fa-edit text-white"></i>
                     </div>
-                    <h4 class="mb-3">Graphics Design</h4>
-                    <p class="m-0">If you want to make ads, posts, logos, banners, brouchers, we can provide you the best and latest designs.</p>
-                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
-                        <i class="bi bi-arrow-right"></i>
-                    </a> --}}
+                    <h4 class="mb-3">{{__('Graphics Design')}}</h4>
+                    <p class="m-0">{{__('If you want to make ads, posts, logos, banners, brouchers, we can provide you the best and latest designs.')}}</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -134,11 +119,8 @@
                     <div class="service-icon mb-4">
                         <i class="fas fa-3x fa-mail-bulk text-white"></i>
                     </div>
-                    <h4 class="mb-3">SEO (Search Engine Optimization)</h4>
-                    <p class="m-0">Optimize your site's SEO to increase its organic search visibility and traffic.</p>
-                    {{-- <a class="btn btn-lg btn-primary rounded-pill" href="">
-                        <i class="bi bi-arrow-right"></i>
-                    </a> --}}
+                    <h4 class="mb-3">{{__('SEO (Search Engine Optimization)')}}</h4>
+                    <p class="m-0">{{__("Optimize your site's SEO to increase its organic search visibility and traffic.")}}</p>
                 </div>
             </div>
         </div>
@@ -153,59 +135,15 @@
             <div class="col-lg-6 mb-5 mb-lg-0">
                 <div class="mb-4">
                     <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Appointment</h5>
-                    <h1 class="display-4">Make An Appointment For Your Family</h1>
+                    <h1 class="display-4">{{__('Have a Project on Mind?')}}</h1>
                 </div>
-                <p class="text-white mb-5">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
-                <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">Find Doctor</a>
-                <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="">Read More</a>
+                <p class="text-white">{{__('Experts, Innovators, Developers, and  Designers. You have come to right place.  We are the right term for your business.')}}</p>
+                <p class="text-white mb-4">{{__('With us you’ll feel heard. We listen to our client requirements and then select the right solution that fits. We care for your business as our own. We take a sincere interest in it and genuinely want to help your company reach its potential.')}}</p>
+                {{-- <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">Find Doctor</a> --}}
+                <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="{{route('systeminn.contact')}}">{{__('Contact Us')}}</a>
             </div>
             <div class="col-lg-6">
-                <div class="bg-white text-center rounded p-5">
-                    <h1 class="mb-4">Book An Appointment</h1>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <select class="form-select bg-light border-0" style="height: 55px;">
-                                    <option selected>Choose Department</option>
-                                    <option value="1">Department 1</option>
-                                    <option value="2">Department 2</option>
-                                    <option value="3">Department 3</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <select class="form-select bg-light border-0" style="height: 55px;">
-                                    <option selected>Select Doctor</option>
-                                    <option value="1">Doctor 1</option>
-                                    <option value="2">Doctor 2</option>
-                                    <option value="3">Doctor 3</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <div class="date" id="date" data-target-input="nearest">
-                                    <input type="text"
-                                        class="form-control bg-light border-0 datetimepicker-input"
-                                        placeholder="Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <div class="time" id="time" data-target-input="nearest">
-                                    <input type="text"
-                                        class="form-control bg-light border-0 datetimepicker-input"
-                                        placeholder="Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Make An Appointment</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                <img src="{{asset('frontend/img/why_chose.jpg')}}" alt="img" style="width:100%; height:72vh">
             </div>
         </div>
     </div>
@@ -371,20 +309,16 @@
 <div class="container-fluid bg-primary my-5 py-5">
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Find A Doctor</h5>
+            <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Newslatter</h5>
             <h1 class="display-4 mb-4">Find A Healthcare Professionals</h1>
-            <h5 class="text-white fw-normal">Duo ipsum erat stet dolor sea ut nonumy tempor. Tempor duo lorem eos sit sed ipsum takimata ipsum sit est. Ipsum ea voluptua ipsum sit justo</h5>
+            <h5 class="text-white fw-normal">A Search for Truth Amidst the Chaos is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.</h5>
         </div>
         <div class="mx-auto" style="width: 100%; max-width: 600px;">
             <div class="input-group">
-                <select class="form-select border-primary w-25" style="height: 60px;">
-                    <option selected>Department</option>
-                    <option value="1">Department 1</option>
-                    <option value="2">Department 2</option>
-                    <option value="3">Department 3</option>
-                </select>
-                <input type="text" class="form-control border-primary w-50" placeholder="Keyword">
-                <button class="btn btn-dark border-0 w-25">Search</button>
+                <form class="d-flex w-100" id="subscribe_newslatter">
+                    <input type="text" class="form-control border-primary w-75" placeholder="Subscribe with Email" style="height: 60px;">
+                    <button type="button" class="btn btn-dark border-0 w-25" id="subs_newslatter">Search</button>
+                </form>
             </div>
         </div>
     </div>
